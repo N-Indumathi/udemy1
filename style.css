@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    padding:15px;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    border:1px solid black;
+    border-radius: 30px;
+    width:50%;
+}
+.center input:focus{
+    outline:none;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.small_container{
+    padding: 10px;
+    color:antiquewhite;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.small_container1 .col-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.recommand{
+    margin:10px;
+    font-style: oblique;
+}
+.recommand h4{
+    font-style: italic;
+    font-weight: lighter;
+    margin:0 2px 0 0;
+}
+.img1 {
+   
+    padding:50px;
+}
+.para{
+    
+   font-size: 20px;
+   font-weight: bolder;
+}
+.head{
+  font-weight:600;
+
+}
+/* <------------------topics recommend for you--------------> */
+.topic{
+  padding:10px;
+}
+
+.para{
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
+}
+.para p{
+  border:2px solid black;
+  height:30px;
+  text-align: center;
+  flex-basis:20%;
+  
+}
+/* <------------footer1---------------> */
+.footer_1{
+    background-color: black;
+    color:white;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+/* <------------------footer2-------------> */
+.footer_2{
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
